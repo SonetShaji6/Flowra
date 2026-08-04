@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/api/notifications"
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "success": true,
+      "message": "Notifications retrieved successfully",
+      "data": {
+        "notifications": [],
+        "unreadCount": 0
+      }
+    }
+  }
+}

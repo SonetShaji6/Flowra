@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/comments",
+    "body": {
+      "task": "6a8af2ade6cc4753bf66d557",
+      "content": "Hero banner completed..."
+    }
+  },
+  "response": {
+    "status": 201,
+    "body": {
+      "success": true,
+      "message": "Comment created successfully",
+      "data": {
+        "_id": "6a8af2afe6cc4753bf66d581",
+        "task": {
+          "_id": "6a8af2ade6cc4753bf66d557",
+          "title": "Build Interactive Landing Page"
+        },
+        "project": {
+          "_id": "6a8af294e6cc4753bf66d540",
+          "name": "College Event Management System"
+        },
+        "user": {
+          "_id": "6a8af291e6cc4753bf66d534",
+          "name": "Elena Rostova",
+          "email": "elena_1787490961718@flowra.app",
+          "profileImage": "",
+          "role": "PROJECT_MANAGER"
+        },
+        "content": "Hero banner and responsive passes layout completed and validated.",
+        "parentComment": null,
+        "createdAt": "2026-08-23T13:16:31.250Z",
+        "updatedAt": "2026-08-23T13:16:31.250Z",
+        "__v": 0
+      }
+    }
+  }
+}

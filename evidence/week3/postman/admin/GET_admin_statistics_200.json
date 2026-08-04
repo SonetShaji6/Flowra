@@ -1,0 +1,50 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/api/admin/statistics"
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "success": true,
+      "message": "System statistics retrieved successfully",
+      "data": {
+        "status": "healthy",
+        "users": {
+          "total": 3,
+          "active": 3,
+          "inactive": 0,
+          "byRole": [
+            {
+              "role": "TEAM_MEMBER",
+              "count": 1
+            },
+            {
+              "role": "PROJECT_MANAGER",
+              "count": 1
+            },
+            {
+              "role": "ADMIN",
+              "count": 1
+            }
+          ]
+        },
+        "projects": {
+          "total": 1,
+          "active": 1,
+          "completed": 0
+        },
+        "tasks": {
+          "total": 1,
+          "completed": 0
+        },
+        "system": {
+          "totalActivities": 5,
+          "totalAIInteractions": 6,
+          "nodeEnv": "development",
+          "serverTime": "2026-08-23T13:17:11.335Z"
+        }
+      }
+    }
+  }
+}

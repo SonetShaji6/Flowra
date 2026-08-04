@@ -1,0 +1,59 @@
+{
+  "request": {
+    "method": "PATCH",
+    "url": "/api/tasks/6a8af2ade6cc4753bf66d557/status",
+    "body": {
+      "status": "IN_PROGRESS"
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "success": true,
+      "message": "Task status updated successfully",
+      "data": {
+        "_id": "6a8af2ade6cc4753bf66d557",
+        "project": {
+          "_id": "6a8af294e6cc4753bf66d540",
+          "name": "College Event Management System",
+          "status": "ACTIVE",
+          "progress": 0
+        },
+        "title": "Build Interactive Landing Page",
+        "description": "Create responsive hero banner, schedule tab, and registration modal.",
+        "assignedTo": {
+          "_id": "6a8af292e6cc4753bf66d537",
+          "name": "Marcus Brody",
+          "email": "marcus_1787490961718@flowra.app",
+          "profileImage": "",
+          "role": "TEAM_MEMBER"
+        },
+        "createdBy": {
+          "_id": "6a8af291e6cc4753bf66d534",
+          "name": "Elena Rostova",
+          "email": "elena_1787490961718@flowra.app",
+          "profileImage": "",
+          "role": "PROJECT_MANAGER"
+        },
+        "priority": "HIGH",
+        "status": "IN_PROGRESS",
+        "deadline": null,
+        "subtasks": [
+          {
+            "title": "Hero banner layout",
+            "isCompleted": false,
+            "_id": "6a8af2ade6cc4753bf66d558"
+          },
+          {
+            "title": "Pass tier selection card",
+            "isCompleted": false,
+            "_id": "6a8af2ade6cc4753bf66d559"
+          }
+        ],
+        "createdAt": "2026-08-23T13:16:29.420Z",
+        "updatedAt": "2026-08-23T13:16:30.231Z",
+        "__v": 0
+      }
+    }
+  }
+}

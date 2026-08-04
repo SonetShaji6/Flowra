@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/api/users/me",
+    "headers": {
+      "Authorization": "Bearer {{token}}"
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "success": true,
+      "message": "Profile retrieved",
+      "data": {
+        "_id": "6a8af291e6cc4753bf66d534",
+        "name": "Elena Rostova",
+        "email": "elena_1787490961718@flowra.app",
+        "profileImage": "",
+        "role": "PROJECT_MANAGER",
+        "isActive": true,
+        "createdAt": "2026-08-23T13:16:01.724Z",
+        "updatedAt": "2026-08-23T13:16:01.724Z",
+        "__v": 0
+      }
+    }
+  }
+}

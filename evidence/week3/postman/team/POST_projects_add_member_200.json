@@ -1,0 +1,51 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/projects/6a8af294e6cc4753bf66d540/members",
+    "body": {
+      "userId": "6a8af292e6cc4753bf66d537"
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "success": true,
+      "message": "Member added to project successfully",
+      "data": {
+        "_id": "6a8af294e6cc4753bf66d540",
+        "name": "College Event Management System",
+        "description": "AI-driven portal for fest registrations, ticketing, and event scheduling.",
+        "manager": {
+          "_id": "6a8af291e6cc4753bf66d534",
+          "name": "Elena Rostova",
+          "email": "elena_1787490961718@flowra.app",
+          "profileImage": "",
+          "role": "PROJECT_MANAGER"
+        },
+        "members": [
+          {
+            "_id": "6a8af291e6cc4753bf66d534",
+            "name": "Elena Rostova",
+            "email": "elena_1787490961718@flowra.app",
+            "profileImage": "",
+            "role": "PROJECT_MANAGER"
+          },
+          {
+            "_id": "6a8af292e6cc4753bf66d537",
+            "name": "Marcus Brody",
+            "email": "marcus_1787490961718@flowra.app",
+            "profileImage": "",
+            "role": "TEAM_MEMBER"
+          }
+        ],
+        "startDate": "2026-08-23T13:16:04.586Z",
+        "status": "ACTIVE",
+        "priority": "HIGH",
+        "progress": 0,
+        "createdAt": "2026-08-23T13:16:04.588Z",
+        "updatedAt": "2026-08-23T13:16:05.324Z",
+        "__v": 1
+      }
+    }
+  }
+}

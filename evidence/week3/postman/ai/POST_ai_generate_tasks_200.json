@@ -1,0 +1,53 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/ai/generate-tasks",
+    "body": {
+      "projectId": "6a8af294e6cc4753bf66d540",
+      "goal": "Build an automated college event..."
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "success": true,
+      "message": "AI-generated task suggestions ready for review",
+      "data": {
+        "projectName": "College Event Management System",
+        "tasks": [
+          {
+            "title": "Architecture & Requirements for Build an automated college event managem",
+            "description": "Analyze scope, outline architecture, and document user stories for: Build an automated college event management system with ticket booking.",
+            "priority": "HIGH",
+            "status": "TODO"
+          },
+          {
+            "title": "Database Schema & API Design for Build an automated college event managem",
+            "description": "Define data models, relationships, validation rules, and RESTful route contracts.",
+            "priority": "HIGH",
+            "status": "TODO"
+          },
+          {
+            "title": "Frontend Interface & Responsive Views",
+            "description": "Build modern UI components matching design tokens with error states and form validation.",
+            "priority": "MEDIUM",
+            "status": "TODO"
+          },
+          {
+            "title": "Integration, Testing & Verification",
+            "description": "Perform end-to-end testing, verify API integration, edge cases, and QA acceptance.",
+            "priority": "MEDIUM",
+            "status": "TODO"
+          },
+          {
+            "title": "Production Deployment & Security Audit",
+            "description": "Review environment variables, verify rate limiting, authorization, and prepare launch release.",
+            "priority": "LOW",
+            "status": "TODO"
+          }
+        ],
+        "provider": "flowra-heuristic-engine"
+      }
+    }
+  }
+}

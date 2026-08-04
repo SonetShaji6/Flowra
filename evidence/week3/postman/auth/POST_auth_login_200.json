@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/auth/login",
+    "body": {
+      "email": "elena_1787490961718@flowra.app",
+      "password": "***"
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "success": true,
+      "message": "Login successful",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YThhZjI5MWU2Y2M0NzUzYmY2NmQ1MzQiLCJyb2xlIjoiUFJPSkVDVF9NQU5BR0VSIiwiaWF0IjoxNzg3NDkwOTYzLCJleHAiOjE3ODgwOTU3NjN9.PiS3BM8ODFDpb7dSwxKzHYC4vvFz4TCu_mbVy-6fXpw",
+      "data": {
+        "id": "6a8af291e6cc4753bf66d534",
+        "name": "Elena Rostova",
+        "email": "elena_1787490961718@flowra.app",
+        "role": "PROJECT_MANAGER",
+        "isActive": true
+      }
+    }
+  }
+}

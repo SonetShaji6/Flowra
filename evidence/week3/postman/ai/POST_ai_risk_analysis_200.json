@@ -1,0 +1,29 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/ai/risk-analysis",
+    "body": {
+      "projectId": "6a8af294e6cc4753bf66d540"
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "success": true,
+      "message": "AI risk analysis completed successfully",
+      "data": {
+        "projectName": "College Event Management System",
+        "risks": [
+          {
+            "severity": "LOW",
+            "title": "Project health is optimal",
+            "description": "No major overdue or blocked tasks detected at this time.",
+            "recommendation": "Maintain continuous progress monitoring and team velocity."
+          }
+        ],
+        "analyzedAt": "2026-08-23T13:17:10.063Z",
+        "provider": "flowra-heuristic-engine"
+      }
+    }
+  }
+}

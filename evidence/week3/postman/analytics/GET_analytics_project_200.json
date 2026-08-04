@@ -1,0 +1,85 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/api/analytics/projects/6a8af294e6cc4753bf66d540"
+  },
+  "response": {
+    "status": 200,
+    "body": {
+      "success": true,
+      "message": "Project analytics retrieved successfully",
+      "data": {
+        "project": {
+          "id": "6a8af294e6cc4753bf66d540",
+          "name": "College Event Management System",
+          "status": "ACTIVE",
+          "priority": "HIGH",
+          "progress": 0
+        },
+        "metrics": {
+          "totalTasks": 1,
+          "completedTasks": 0,
+          "inProgressTasks": 1,
+          "reviewTasks": 0,
+          "todoTasks": 0,
+          "overdueTasks": 0,
+          "completionRate": 0
+        },
+        "statusDistribution": [
+          {
+            "name": "TODO",
+            "count": 0
+          },
+          {
+            "name": "IN_PROGRESS",
+            "count": 1
+          },
+          {
+            "name": "REVIEW",
+            "count": 0
+          },
+          {
+            "name": "COMPLETED",
+            "count": 0
+          }
+        ],
+        "priorityDistribution": [
+          {
+            "name": "LOW",
+            "count": 0
+          },
+          {
+            "name": "MEDIUM",
+            "count": 0
+          },
+          {
+            "name": "HIGH",
+            "count": 1
+          },
+          {
+            "name": "CRITICAL",
+            "count": 0
+          }
+        ],
+        "memberWorkload": [
+          {
+            "userId": "6a8af291e6cc4753bf66d534",
+            "name": "Elena Rostova",
+            "email": "elena_1787490961718@flowra.app",
+            "totalTasks": 0,
+            "completedTasks": 0,
+            "inProgressTasks": 0
+          },
+          {
+            "userId": "6a8af292e6cc4753bf66d537",
+            "name": "Marcus Brody",
+            "email": "marcus_1787490961718@flowra.app",
+            "totalTasks": 1,
+            "completedTasks": 0,
+            "inProgressTasks": 1
+          }
+        ]
+      }
+    }
+  }
+}
