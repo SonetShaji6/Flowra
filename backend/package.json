@@ -1,0 +1,40 @@
+{
+  "name": "flowra-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Flowra - AI-powered project management platform",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --runInBand --forceExit tests/password.test.js tests/auth.validation.test.js tests/project.validation.test.js",
+    "test:api": "node tests/verify-api.js",
+    "seed": "node src/scripts/seed.js",
+    "lint": "eslint .",
+    "format": "prettier --write \"src/**/*.js\""
+  },
+  "dependencies": {
+    "@google/genai": "^2.18.0",
+    "@google/generative-ai": "^0.24.1",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.10.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.2",
+    "morgan": "^1.10.0",
+    "multer": "^2.2.0",
+    "openai": "^4.40.0",
+    "zod": "^3.23.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5",
+    "supertest": "^7.0.0"
+  }
+}
