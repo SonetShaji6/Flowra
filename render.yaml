@@ -1,0 +1,42 @@
+services:
+  # Flowra Backend API Service
+  - type: web
+    name: flowra-api
+    env: node
+    rootDir: backend
+    plan: free
+    buildCommand: npm install
+    startCommand: npm run start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5001
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      - key: CLIENT_URL
+        sync: false
+      - key: AI_PROVIDER
+        value: gemini
+      - key: AI_API_KEY
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: AI_MODEL
+        value: gemini-3.6-flash
+      - key: GEMINI_PROJECT_NAME
+        value: projects/188387910506
+      - key: GEMINI_PROJECT_NUMBER
+        value: "188387910506"
+      - key: CLOUDINARY_CLOUD_NAME
+        value: rf2hvdrj
+      - key: CLOUDINARY_API_KEY
+        value: "855845975675466"
+      - key: CLOUDINARY_API_SECRET
+        sync: false
+
